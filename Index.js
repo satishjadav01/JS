@@ -100,11 +100,11 @@ function isItTruthy(input) {
 
 //! Task 1: Sum of First N Natural Numbers
 
-function sumOf(n) {
-    let sum = 0
+function sumFirst(n) {
+    let sum = 0 
 
-    for(let i = 1 ; i <= n ; i++){
-        sum += i
+    for(let i = 0 ; i<=n ; i ++ ){
+        sum += i ;
     }
     return sum
 }
