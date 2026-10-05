@@ -189,4 +189,32 @@ function isItTruthy(input) {
 // console.log(isPalidrome("satish"));
 
 
-//!
+//!Count vowels in a string
+
+// function countVovels(str) {
+//     let count = 0;
+//     let vovels = 'aeiouAEIOU'
+
+//     for(let char of str){
+//         if(vovels.includes(char)){
+//             count ++
+//         }
+//     }
+//     return count
+// }
+// console.log(countVovels("satish"));
+
+//! Find the largest number in an array
+
+// let arr = [10,20,30,56,10,21]
+
+// let largest = Math.max(...arr)
+// console.log(largest);
+
+
+//! Find the smallest number in an array
+
+let arr = [10,20,30,40,50,65,20]
+
+let smallestNumber = Math.min(...arr)
+console.log(smallestNumber);
