@@ -130,12 +130,12 @@ function isItTruthy(input) {
 
 
 
-function reverseString(str) {
-    let result = "" ;
+function reversString(str) {
+    let rev = ""
 
     for(let char of str){
-        result = char + result;
+        rev = char + rev;
     }
-    return result;
+    return rev
 }
-console.log(reverseString("satish"))
+console.log(reversString("satish"))
