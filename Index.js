@@ -251,15 +251,13 @@ function isItTruthy(input) {
 
 //! EvenOdd 
 
-let input = prompt("Enter The Number : ")
-let arr = input.split(',').map(Number);
+// let input = prompt("Enter The Number : ");
+// let arr = input.split(',').map(Number)
 
-function findEvenOdd(arr) {
-    let even = arr.filter(num => num % 2 === 0);
-    let odd = arr.filter(num => num % 2 !== 0);
+// function evenOddNumber(arr) {
+//   let even = arr.filter(num => num % 2 === 0);
+//   let odd = arr.filter(num => num % 2 !== 0);
 
-    return {even,odd}
-}
-console.log(findEvenOdd(arr));
-
-
+//   return {even , odd}
+// }
+// console.log(evenOddNumber(arr))
