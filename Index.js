@@ -214,7 +214,39 @@ function isItTruthy(input) {
 
 //! Find the smallest number in an array
 
-let arr = [10,20,30,40,50,65,20]
+// let arr = [10,20,30,40,50,65,20]
 
-let smallestNumber = Math.min(...arr)
-console.log(smallestNumber);
+// let smallestNumber = Math.min(...arr)
+// console.log(smallestNumber);
+
+//! Find the secound largest number in an array
+
+// let arr = [10,20,30,40,50,65]
+
+// function secoundLargest() {
+//     return [...new Set(arr)].sort((a , b)=> b - a )[1]
+// }
+// console.log(secoundLargest(arr));
+
+//! Remove duplicates from an array
+
+// let arr = [10,20,30,56,48,98,71]
+
+// function removeDuplicate(arr) {
+//     return [...new Set(arr)]
+// }
+// console.log(removeDuplicate(arr));
+
+
+//! Sum all numbers using reduce()
+
+// let arr = [10,20,30,24,65]
+
+// function sumArray () {
+//     return arr.reduce((sum,num)=>{
+//         return sum + num
+//     })
+// }
+// console.log(sumArray(arr))
+
+
