@@ -85,3 +85,12 @@ console.log('Hellow world! ')
 //     })
 // }
 // console.log(sumOf(arr));
+
+//! Find even and odd numbers
+
+let input = prompt("Enter Numbers : ")
+let arr = input.split(',').map(Number)
+
+function evenOddNumber(arr) {
+    let 
+}
