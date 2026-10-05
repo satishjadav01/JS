@@ -64,3 +64,12 @@ console.log('Hellow world! ')
 //     return [...new Set(arr)].sort((a,b)=>b-a)[1]
 // }
 // console.log(secoundLargest(arr))
+
+//! Remove duplicates from an array
+
+let arr = [10,20,310,100,10,10,10]
+
+function removeDuplicate(str) {
+    return [...new Set(arr)]
+}
+console.log(removeDuplicate(arr));
