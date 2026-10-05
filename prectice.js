@@ -77,10 +77,11 @@ console.log('Hellow world! ')
 
 //! Sum all numbers using reduce()
 
-let arr = [10,20,30,40,20]
+// let arr = [10,20,30,40,20]
 
-function sumOf(arr) {
-    return arr.reduce((sum , num)=>{
-        
-    })
-}
+// function sumOf(arr) {
+//     return arr.reduce((sum , num)=>{
+//         return sum + num
+//     })
+// }
+// console.log(sumOf(arr));
