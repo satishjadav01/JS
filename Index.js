@@ -156,13 +156,37 @@ function isItTruthy(input) {
 // let res = [...new Set(arr)].sort((a,b)=>(b-a))
 // console.log(res[3]);
 
+//! sum number using reduce 
 
-let arr = [10,20]
+// let arr = [10,20]
 
-function sumNumbers() {
-    return arr.reduce((sum , num)=>{
-        return sum + num
-    })
-}
-console.log(sumNumbers(arr));
+// function sumNumbers() {
+//     return arr.reduce((sum , num)=>{
+//         return sum + num
+//     })
+// }
+// console.log(sumNumbers(arr));
 
+
+
+//! reverse string 
+
+// function reverseString(str) {
+//     let rev = ""
+
+//     for(char of str){
+//         rev = char + rev
+//     }
+//     return rev
+// }
+// console.log(reverseString("satish"))
+
+//! palidrome or not 
+
+// function isPalidrome(str) {
+//     return str === str.split("").reverse("").join("")
+// }
+// console.log(isPalidrome("satish"));
+
+
+//!
