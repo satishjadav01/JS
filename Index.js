@@ -151,8 +151,7 @@ function isItTruthy(input) {
 
 // largest number 
 
-let arr = [10,50,20,30,40,50,65]
+// let arr = [10,20,30,10,20,56,30]
 
-let result = [...new Set(arr)].sort((a,b)=>b-a);
-
-console.log(result[1])
+// let res = [...new Set(arr)].sort((a,b)=>(b-a))
+// console.log(res[3]);
