@@ -67,9 +67,20 @@ console.log('Hellow world! ')
 
 //! Remove duplicates from an array
 
-let arr = [10,20,310,100,10,10,10]
+// let arr = [10,20,310,100,10,10,10]
 
-function removeDuplicate(str) {
-    return [...new Set(arr)]
+// function removeDuplicate(str) {
+//     return [...new Set(arr)]
+// }
+// console.log(removeDuplicate(arr));
+
+
+//! Sum all numbers using reduce()
+
+let arr = [10,20,30,40,20]
+
+function sumOf(arr) {
+    return arr.reduce((sum , num)=>{
+        
+    })
 }
-console.log(removeDuplicate(arr));
