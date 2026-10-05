@@ -155,3 +155,14 @@ function isItTruthy(input) {
 
 // let res = [...new Set(arr)].sort((a,b)=>(b-a))
 // console.log(res[3]);
+
+
+let arr = [10,20]
+
+function sumNumbers() {
+    return arr.reduce((sum , num)=>{
+        return sum + num
+    })
+}
+console.log(sumNumbers(arr));
+
