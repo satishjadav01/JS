@@ -114,18 +114,19 @@ function isItTruthy(input) {
 
 //! count vowels
 
-function countVovels(str) {
+// function countVovels(str) {
     
-    let count = 0;
-    let vovels = 'aeiouAEIOU';
+//     let count = 0;
+//     let vovels = 'aeiouAEIOU';
 
-    for(let char of str){
-        if(vovels.includes(char)){
-            count ++
-        }
-    }
-    return count
-}
-console.log(countVovels('satish'));
+//     for(let char of str){
+//         if(vovels.includes(char)){
+//             count ++
+//         }
+//     }
+//     return count
+// }
+// console.log(countVovels('satish'));
+
 
 
