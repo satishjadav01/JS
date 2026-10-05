@@ -263,4 +263,3 @@ function findEvenOdd(arr) {
 console.log(findEvenOdd(arr));
 
 
-
