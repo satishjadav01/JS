@@ -88,9 +88,13 @@ console.log('Hellow world! ')
 
 //! Find even and odd numbers
 
-let input = prompt("Enter Numbers : ")
-let arr = input.split(',').map(Number)
+// let input = prompt("Enter Numbers : ")
+// let arr = input.split(',').map(Number)
 
-function evenOddNumber(arr) {
-    let 
-}
+// function evenOddNumber(arr) {
+//     let even = arr.filter(num => num%2 === 0);
+//     let odd = arr.filter(num => num%2 !== 0);
+
+//     return { even , odd }
+// }
+// console.log(evenOddNumber(arr));
