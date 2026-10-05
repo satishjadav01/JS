@@ -129,13 +129,30 @@ function isItTruthy(input) {
 // console.log(countVovels('satish'));
 
 
+// function reversString(str) {
+//     let rev = ""
 
-function reversString(str) {
-    let rev = ""
+//     for(let char of str){
+//         rev = char + rev;
+//     }
+//     return rev
+// }
+// console.log(reversString("satish"))
 
-    for(let char of str){
-        rev = char + rev;
-    }
-    return rev
-}
-console.log(reversString("satish"))
+
+// remove duplicates from array 
+
+// let number = [10,20,30,10,10,20,23,20,20]
+// function removeDuplicates(arr) {
+//     return [...new Set(arr)]
+// }
+// console.log(removeDuplicates(number));
+
+
+// largest number 
+
+let arr = [10,50,20,30,40,50,65]
+
+let result = [...new Set(arr)].sort((a,b)=>b-a);
+
+console.log(result[1])
