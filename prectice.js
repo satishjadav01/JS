@@ -98,3 +98,13 @@ console.log('Hellow world! ')
 //     return { even , odd }
 // }
 // console.log(evenOddNumber(arr));
+
+//! Merge two arrays
+
+// let arr1 = [10,30,20,32]
+// let arr2 = [10,30,50,32]
+
+// let newArr = [...arr1 , ...arr2];
+
+// console.log(newArr)
+
