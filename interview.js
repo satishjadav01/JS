@@ -74,9 +74,10 @@
 
 // !Sum all numbers using reduce()
 
-let num = [10,20,30,40,60,50,70]
+// let num = [10,20,30,40,60,50,70]
 
-function sumTotal(acc , curre) {
-    return num + sum;
-}
-console.log(sumTotal(num));
+// let result = num.reduce((total , sum)=>{
+//     return total + sum
+// });
+// console.log(result);
+
