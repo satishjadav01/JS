@@ -1,3 +1,3 @@
-document.getElementById("onclickEvent").addEventListener('keypress',()=>{
-    alert("hellow")
-})
+document.getElementById('cointainer').addEventListener('mousedown',(e)=>{
+    alert("clecked")
+});
