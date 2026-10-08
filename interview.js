@@ -105,34 +105,40 @@
 
 //! Explain map() vs filter() vs reduce()
 
-//? Map()
-//* The Map Method which is itrate one element and change every element and return new array are knwon as map ;
+//? map()
+//* chage one element and intreat every element are known as map() method 
 
-// let arr = [10,20,30,40]
+// let num = [10,20,30,40,50,60]
 
-// let res = arr.map(num => num*2);
+// let res = num.map(nums => nums * 2);
 // console.log(res);
 
+// let names = ["user1","user2","user3"]
 
-// let names = ["satish","jadav","darshan"]
+// let users = names.map(allUsers => allUsers.toUpperCase());
+// console.log(users);
 
-// let res =  names.map(name=>name.toUpperCase())
-// console.log(res);
+//? filter();
+//* the filter the Elements matching conditions based are also known as filter.
 
+// let evenOdd = [10,5,6,56,7,7,2,3,5]
 
-//! filter method which is used to filter matching condition element  
+// let number = evenOdd.filter(num => num%2 == 0);
+// console.log(number);
 
-// let numbers = [10,15,20,35,64,55,10]
+//? reduce(); 
 
-// let result = numbers.filter(num => num%2 === 0);
+//! the reduce method which is used to combine every element and give final value
+
+// let numbers = [10,20,30,40,50,60,4]
+
+// let result = numbers.reduce((total,sum)=>{
+//     return total + sum;
+// })
 // console.log(result);
 
-// let users = [
-//     {name:"user1",age:25},
-//     {name:"=user2",age:20},
-//     {name:"user3",age:4},
-// ]
-// let result = users.filter(user => user.age>=18 )
-// console.log(result);
+//? forEach()
+//* the forEach loop throught
+
 
 
