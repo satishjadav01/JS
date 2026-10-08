@@ -114,7 +114,25 @@
 // console.log(res);
 
 
-let names = ["satish","jadav","darshan"]
+// let names = ["satish","jadav","darshan"]
 
-let res =  names.map(name=>name.toUpperCase())
-console.log(res);
+// let res =  names.map(name=>name.toUpperCase())
+// console.log(res);
+
+
+//! filter method which is used to filter matching condition element  
+
+// let numbers = [10,15,20,35,64,55,10]
+
+// let result = numbers.filter(num => num%2 === 0);
+// console.log(result);
+
+// let users = [
+//     {name:"user1",age:25},
+//     {name:"=user2",age:20},
+//     {name:"user3",age:4},
+// ]
+// let result = users.filter(user => user.age>=18 )
+// console.log(result);
+
+
