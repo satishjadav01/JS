@@ -101,3 +101,19 @@
 //     return{even , odd}
 // }
 // console.log(evenOdd(arr));
+
+
+//! Explain map() vs filter() vs reduce()
+
+//? Map()
+//* The Map Method which is itrate one element and change every element and return new array are knwon as map ;
+
+// let arr = [10,20,30,40]
+
+// let res = arr.map(num => num*2);
+// console.log(res);
+
+
+let name = ["satish","jadav","darshan"]
+
+let res = 
