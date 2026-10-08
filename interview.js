@@ -65,3 +65,18 @@
 
 //! Remove duplicates from an array
 
+// let arr = [10,20,30,40,50,10,10,10,10,10]
+
+// function removeDuplicate(str) {
+//     return [...new Set(arr)]
+// }
+// console.log(removeDuplicate(arr));
+
+// !Sum all numbers using reduce()
+
+let num = [10,20,30,40,60,50,70]
+
+function sumTotal(acc , curre) {
+    return num + sum;
+}
+console.log(sumTotal(num));
