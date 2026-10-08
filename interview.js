@@ -38,3 +38,30 @@
 // console.log(countVewels("satish"));
 
 
+//! Find the largest number in an array
+
+// let nums = [10,20,30,40,50,60]
+
+// let largestNum = Math.max(...nums);
+// console.log(largestNum);
+
+//!Find the smallest number in an array
+
+
+// let nums = [10,20,30,40,50,60]
+
+// let largestNum = Math.min(...nums);
+// console.log(largestNum);
+
+//! Find the second-largest number
+
+// let num = [10,20,30,40,50,654,66]
+
+// function secoundLargest(num) {
+//     return [...new Set(num)].sort((a , b)=> b - a)[1]
+// }
+// console.log(secoundLargest(num));
+
+
+//! Remove duplicates from an array
+
