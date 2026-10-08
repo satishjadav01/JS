@@ -81,3 +81,23 @@
 // });
 // console.log(result);
 
+//! Merge two arrays
+
+// let arr1 = [10,20,30]
+// let arr2 = [40,50,60]
+
+// let res = [...arr1,...arr2]
+// console.log(res);
+
+//! Find even and odd numbers
+
+// let input = prompt("Enter The (Numbers ");
+// let arr = input.split(",").map(Number)
+
+// function evenOdd(arr) {
+//     let even = arr.filter(num => num % 2 === 0)
+//     let odd = arr.filter(num => num % 2 !== 0)
+
+//     return{even , odd}
+// }
+// console.log(evenOdd(arr));
