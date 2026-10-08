@@ -114,6 +114,7 @@
 // console.log(res);
 
 
-let name = ["satish","jadav","darshan"]
+let names = ["satish","jadav","darshan"]
 
-let res = 
+let res =  names.map(name=>name.toUpperCase())
+console.log(res);
