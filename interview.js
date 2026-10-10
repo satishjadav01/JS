@@ -150,14 +150,12 @@
 //* async await which is used to handle asynocronouse operation in javascript
 
 async function fetchUserdata() {
-try {
-     let result = await fetch('https://jsonplaceholder.typicode.com')
-
-    let data = await result.json()
-
-    console.log(data);
-} catch (error) {
-    console.log("error",error);
+    try {
+        const response = await fetch("https://jsonplaceholder.typicode.com/users");
+        const data = await response.json();
+    } catch (error) {
+        console.log('Error',error.message);
+    }
 }
-}
+
 fetchUserdata()
