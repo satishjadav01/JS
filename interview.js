@@ -154,9 +154,12 @@ function fetchUserdata() {
         let response = fetch("https://jsonplaceholder.typicode.com/users")
     
         let data = response.json()
+        console.log(data.json);
+        
     } catch (error) {
         console.log(error);
         
     }
     
 }
+fetchUserdata()
