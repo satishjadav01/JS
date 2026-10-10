@@ -146,6 +146,9 @@
 //     console.log(arr);  
 // })
 
+//! what is async ? 
+//* async await which is used to handle asynocronouse operation in javascript
 
-
-
+function fetchUserdata() {
+    let result 
+}
