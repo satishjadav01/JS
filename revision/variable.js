@@ -1,5 +1,5 @@
 //! variable 
-//* variable are nothing but just container we can store the value/data inside variable 
+// variable are nothing but just container we can store the value/data inside variable 
 
 //? variable name = value ;
 
