@@ -36,8 +36,33 @@
 //? boolean 
 //* The Boolean means it will return the True of False value 
 
-let num = 10
+// let num = 10
 
-let res = num>18 ? "you are eligibal" : "not eligibal"
-console.log(res);
+// let res = num>18 ? true : false
+// console.log(res);
 
+//? undefine
+//* undefine means variable are define but we can't assign the value 
+
+// var a;
+// console.log(a);
+
+//? Null
+//* null means internally empty value .
+
+// let user = null;
+// console.log(user);
+
+//! bigint
+//* bigint means store the big value inside perticular variable 
+
+// let num = 1321656461564654564651345645641516444848456132n;
+// console.log(num);
+
+//! symbol
+//* Which is used to create a unique value 
+
+// let id1 = Symbol("id")
+// let id2 = Symbol("id")
+
+// console.log(id1 === id2);
