@@ -140,6 +140,12 @@
 //? forEach()
 //* the forEach loop throught
 
+// let arr = [10,20,30,50,40,5,65]
+
+// let result = arr.forEach((arr)=>{
+//     console.log(arr);  
+// })
+
 
 
 
