@@ -149,17 +149,16 @@
 //! what is async ? 
 //* async await which is used to handle asynocronouse operation in javascript
 
-function fetchUserdata() {
-    try {
-        let response = fetch("https://jsonplaceholder.typicode.com/users")
+// function fetchUserdata() {
+//     try {
+//         let response = fetch("https://jsonplaceholder.typicode.com/users")
     
-        let data = response.json()
-        console.log(data.json);
+//         let data = response.json()
+//         console.log(data.json);
         
-    } catch (error) {
-        console.log(error);
+//     } catch (error) {
+//         console.log(error);
         
-    }
-    
-}
-fetchUserdata()
+//     }
+// }
+// fetchUserdata()
