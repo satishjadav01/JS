@@ -33,5 +33,10 @@
 // }
 // printDetails.apply(user1,["una","gani market"])
 
-//! Bind ()
-//* which is used 
+//! 3.bind() method:
+//* The bind() method is used to handle the 'this' keyword behaviour but it will not invoke or called immediately instead of it will return the function 
+
+//? Synatax : methodName.bind(thisArg)
+
+// let userInfo = printDetails.bind(user1);
+// userInfo("Ahm","in");;
