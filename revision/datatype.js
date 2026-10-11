@@ -84,6 +84,7 @@
 
 //? object 
 //* collection of key-value it is light-weight fortmate are also known as object 
+//^ there are two ways to create an array 1) obj constructor and 2) obj literal  
 
 // let users = {
 //     name : 'satish',
@@ -91,3 +92,11 @@
 //     Id = 16,   
 // }
 // console.log(users.Id);
+
+//? Array 
+//*array an object in javascript  take a multiple value store in single variable are also known as Array 
+//^ there are two ways to create an array 1) array constructor and 2) literal 
+
+// let arr = [10,20,30,10]
+// console.log(arr[2]);
+
