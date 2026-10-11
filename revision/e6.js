@@ -99,7 +99,7 @@ let {
 console.log(eName);
 console.log(ePakage);
 console.log(eSkill);
-let [p,q,r,s] = eSkill;
+let [p,q,r,s] = eSkill; cfs
 console.log(r);
 console.log(eCompanyDetails);
 
