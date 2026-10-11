@@ -66,3 +66,17 @@
 // let id2 = Symbol("id")
 
 // console.log(id1 === id2);
+
+//! Non-Premitive
+
+//? Function  
+//* Block of code which is used to perform the specific task 
+
+// function name (){
+
+// }
+
+// function greet() {
+//     console.log('hellow user');
+// }
+// greet()
