@@ -80,3 +80,14 @@
 //     console.log('hellow user');
 // }
 // greet()
+
+
+//? object 
+//* collection of key-value it is light-weight fortmate are also known as object 
+
+// let users = {
+//     name : 'satish',
+//     age : 21,
+//     Id = 16,   
+// }
+// console.log(users.Id);
