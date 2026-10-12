@@ -3,19 +3,19 @@
 //* fatch is a function in JS 
 
 
-let fetchUser = async() =>{
-    try {
-        let response = await fetch('https://jsonplaceholder.typicode.com/albums');
+// let fetchUser = async() =>{
+//     try {
+//         let response = await fetch('https://jsonplaceholder.typicode.com/albums');
 
-        console.log(response);
+//         console.log(response);
         
-        let data = await response.json()
+//         let data = await response.json()
 
-        console.log(data);
+//         console.log(data);
         
-    } catch (error) {
+//     } catch (error) {
 
-        console.log(error);
-    }
-}
-fetchUser()
+//         console.log(error);
+//     }
+// }
+// fetchUser()
