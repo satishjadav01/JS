@@ -41,12 +41,10 @@
 //! Find the largest number in an array
 
 // let nums = [10,20,30,40,50,60]
-
 // let largestNum = Math.max(...nums);
 // console.log(largestNum);
 
 //!Find the smallest number in an array
-
 
 // let nums = [10,20,30,40,50,60]
 

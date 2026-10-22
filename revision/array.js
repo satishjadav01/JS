@@ -31,9 +31,9 @@
 //& map()
 //* The map method used to change one element to interate every element are known an a map method it will return new array are known as map method  
 
-// let arr = [10,20,30,40,50,60,70]
-// let result = arr.map(num => num * 2);
-// console.log(result);
+// let arr = [10,20,30,405,50,60,70]
+// let res = arr.map(num => num * 2);
+// console.log(res);
 
 // let name = ["satish","sanjay","kanu","Gajaraj"]
 

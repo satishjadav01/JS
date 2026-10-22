@@ -9,7 +9,7 @@
 //? HTML Dom    
 //? CORE DOM
 //? React DOM 
-//? XML DOM
+//? XML DOM 
 
 //! What is Node ? 
 //* Node is an basic building block in js .
@@ -36,6 +36,7 @@ document.title = "Update My Document";
 
 //? document.body
 console.log(document.body);
+
 //? document.head
 console.log(document.head);
 

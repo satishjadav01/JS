@@ -42,6 +42,7 @@ navigator.geolocation.getCurrentPosition((position)=>{
 });
 
 let statusText = document.getElementById("statusText");
+
 if (navigator.onLine){
     statusText.innerHTML = "You Are Online ";
     statusText.style.color = "green";
@@ -50,18 +51,15 @@ if (navigator.onLine){
     statusText.style.color = "red"
 }
 
-
 //! console 
 //* console is a object provided by the window which is used to print the output  in the console of the browser (BDT)
 
 console.log(console);
 console.warn("This is warning ");
 console.error("This is error ")
-
 let arr = [1,2,3,4,5]
 console.log(arr);
 console.table(arr);
-
 console.dir(document);
 
 //! location :
