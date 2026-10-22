@@ -31,12 +31,29 @@ app.listen(3000, () => {
 //   }
 // });
 
-app.delete("/users/:id", (req, res) => {
-  const user = User.findByIdAndDelete(req, URLSearchParams.id);
+app.delete("users/:id", (req, res) => {
+  try {
+    const users = User.findByIdAndDelete(req, params.id);
 
-  if (!user) {
-    return res.status(404).json({
-      message: "user not found",
-    });
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+    res.json({ message: "user deleted succsessfully " });
+  } catch (error) {
+    res.status(500).json({ message: "Internal Server Error " });
+  }
+});
+
+app.delete("/users/:id", (req, res) => {
+  try {
+    const users = User.findByIdAndDelete(req, params.id);
+
+    if(!user){
+        return res.status(404).json({message:"not found "})
+    }
+    res.json({message:"user deleted succsessfully "})
+
+  } catch (error) {
+    
   }
 });
