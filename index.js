@@ -1,12 +1,12 @@
-const express = require("express");
+const express = require('express')
 const app = express();
 
-app.use(express.json());
+app.use(express.json())
 
-app.get("/", (req, res) => {
-  res.send("server is runing ");
+app.get("/",()=>{
+    res.send("Server is runing ")
 });
 
-app.listen(3000, () => {
-  console.log("server runing on port 3000");
-});
+app.listen(3000,()=>{
+    console.log('server is runing at 3000 port ');
+})
