@@ -22,11 +22,21 @@ app.listen(3000, () => {
 //   }
 // });
 
-app.post("/users", async (req, res) => {
-  try {
-    const users = await User.create(req.body);
-    res.status(201).json(users);
-  } catch (error) {
-    res.status(500).json({ message: "faild to create user!" });
+// app.post("/users", async (req, res) => {
+//   try {
+//     const users = await User.create(req.body);
+//     res.status(201).json(users);
+//   } catch (error) {
+//     res.status(500).json({ message: "faild to create user!" });
+//   }
+// });
+
+app.delete("/users/:id", (req, res) => {
+  const user = User.findByIdAndDelete(req, URLSearchParams.id);
+
+  if (!user) {
+    return res.status(404).json({
+      message: "user not found",
+    });
   }
 });
