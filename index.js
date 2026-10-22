@@ -13,11 +13,20 @@ app.listen(3000, () => {
 
 // GET API
 
-// app.get("/users", (req, res) => {
+// app.get("/users", async (req, res) => {
 //   try {
-//     const users = User.find();
+//     const users = await User.find();
 //     res.status(200).json(users);
 //   } catch (error) {
 //     res.status(500).json({ message: "server error" });
 //   }
 // });
+
+app.post("/users", async (req, res) => {
+  try {
+    const users = await User.create(req.body);
+    res.status(201).json(users);
+  } catch (error) {
+    res.status(500).json({ message: "faild to create user!" });
+  }
+});
