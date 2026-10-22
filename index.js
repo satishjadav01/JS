@@ -60,11 +60,11 @@ app.listen(3000, () => {
 // });
 
 
-const {pool} = require('pg');
-const { Pool } = require("undici-types");
+const express = require('express')
+const app = express();
 
-const pool = new Pool({
-    connectionString:process.env.DATABASE_URL
-});
+app.use(express.json())
 
-module.exports = pool;
+app.get("/",(req,res)=>{
+  
+})
