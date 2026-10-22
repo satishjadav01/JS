@@ -66,5 +66,10 @@ const app = express();
 app.use(express.json())
 
 app.get("/",(req,res)=>{
-  
+  try {
+    const users = User.find()
+    res.status(200).json(users);
+  } catch (error) {
+    res.status(500).json({message:"internal server error"})
+  }
 })
