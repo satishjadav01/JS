@@ -31,7 +31,6 @@ app.listen(3000, () => {
 //   }
 // });
 
-
 // app.delete("users/:id", (req, res) => {
 //   try {
 //     const users = User.findByIdAndDelete(req, params.id);
@@ -55,21 +54,19 @@ app.listen(3000, () => {
 //     res.json({message:"user deleted succsessfully "})
 
 //   } catch (error) {
-    
+
 //   }
 // });
 
-
-const express = require('express')
+const express = require("express");
 const app = express();
 
-app.use(express.json())
+app.use(express.json());
 
-app.get("/",(req,res)=>{
-  try {
-    const users = User.find()
-    res.status(200).json(users);
-  } catch (error) {
-    res.status(500).json({message:"internal server error"})
-  }
-})
+app.get("/", (req, res) => {
+  res.send("server is running....");
+});
+
+app.listen(3000, () => {
+  console.log("server runig in port 3000");
+});
