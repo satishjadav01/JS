@@ -4,9 +4,10 @@ const app = express();
 app.use(express.json())
 
 app.get("/",()=>{
-    res.send("Server is runing ")
-});
+    res.send('server is runing ')
+})
 
 app.listen(3000,()=>{
-    console.log('server is runing at 3000 port ');
+    console.log('server runing in on port number 3000');
+    
 })
