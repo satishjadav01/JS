@@ -13,4 +13,23 @@
 //! What is Tag v/s Element ? 
 //* a tag is define element and elemetn consist opening and closing tag 
 
-//!
+//! What is Attribute ? 
+//* Attribute provide additiona information about an element like as href or src 
+
+//! What is a basic strucutre of HTML ? 
+//* <!Document> , <HTML> <head><body></body></head></HTML>
+
+//! What is the porpuse of <html>??
+//* it it a root element of An HTML document 
+
+//! what is the porpuse of <head></head> Element ? 
+//* it consist metadata the page title and link to resorces like css 
+
+//!What is the purpose of <body></body> element ? 
+//* it display the information 
+
+//! what is the <title></title> ? 
+//* diplay the browser tab 
+
+//!What is the <h1> tag? 
+//*It represents a top-level heading.
