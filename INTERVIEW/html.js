@@ -37,3 +37,10 @@
 //!What is the <p> tag?
 //* it define the paragaph
 
+//! What is the <br> tag? 
+//* bold the text
+
+//! What is the difference between block and inline elements?
+//* block level element start with new line and inline elements stay in current line 
+//* block level : <div>,<p> <h1> and <section>
+//* Inline level : <span>,<a>,<strong> and <em>
