@@ -56,3 +56,12 @@
 
 //! What is the <a> tag?
 //* which is used to create a hyperlink to one page to an other page 
+
+//! What is the href attribute?
+//* provide the hyperlink
+
+//! What is the target="_blank" attribute used for?
+//* It opens a link in a new tab or window.
+
+//! What is the <img> tag?
+//* display the img in the browser
