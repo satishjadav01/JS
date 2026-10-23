@@ -7,4 +7,5 @@
 //! What is a Tag in HTML ? 
 //* A tag defines an element on webpage,such as heading or paragraph 
 
-//! What is a 
+//! What is a Element ? 
+//* A tag element usully consist of an opening and closing tag 
