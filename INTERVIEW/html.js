@@ -44,3 +44,15 @@
 //* block level element start with new line and inline elements stay in current line 
 //* block level : <div>,<p> <h1> and <section>
 //* Inline level : <span>,<a>,<strong> and <em>
+
+//! What is the <div> tag?
+//* group of container are known as div container 
+
+//! what is span tag ? 
+//* which is used to group of text or other content 
+
+//! <div> v/s <span>?
+//* div is block level element and span is inline level element 
+
+//! What is the <a> tag?
+//* which is used to create a hyperlink to one page to an other page 
