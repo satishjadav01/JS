@@ -56,7 +56,7 @@ document.getElementById("logout").addEventListener("click",()=>{
     sessionStorage.removeItem("isLoggedIn");
     status.innerHTML = "User Is Logout!";
 });
-
+  
 //! 3. cookies :
 //* cookies are nothing but t he small junks of file or code 
 
