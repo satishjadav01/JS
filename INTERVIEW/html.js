@@ -65,3 +65,14 @@
 
 //! What is the <img> tag?
 //* display the img in the browser
+
+//! What are the src and alt attributes?
+//* provide img path and alt is provide altenative text 
+
+//! What are void elements?
+//* don't have closing tag
+
+//! What is the difference between id and class?
+//* An id identifies one element uniquely within a page; a class can be shared by multiple elements.
+
+//! 
