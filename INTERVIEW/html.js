@@ -9,3 +9,8 @@
 
 //! What is a Element ? 
 //* A tag element usully consist of an opening and closing tag 
+
+//! What is Tag v/s Element ? 
+//* a tag is define element and elemetn consist opening and closing tag 
+
+//!
