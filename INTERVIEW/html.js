@@ -75,4 +75,27 @@
 //! What is the difference between id and class?
 //* An id identifies one element uniquely within a page; a class can be shared by multiple elements.
 
-//! 
+//! What is the data-* attribute?
+//* It stores custom data on an HTML element, accessible through JavaScript.
+
+//! What is the title attribute?
+//* provide the information show as tooltip
+
+//! What is an HTML form?
+//* A form collects user input and can submit it to a server.
+
+//! What is the <input> tag?
+//* It creates an input control, such as a text field, checkbox, or password field.
+
+//! . What is the purpose of the <label> tag?
+//* It gives a form control an accessible label.
+
+//! What is the difference between GET and POST in forms?
+//* GET commonly sends data in the URL. POST sends data in the request body.
+
+//! What is the required attribute?
+//* It makes a form field mandatory before normal form submission.
+
+//! What is the placeholder attribute?
+//*It displays a short hint inside an input field.
+
