@@ -2,8 +2,8 @@
 //* Date object inbuild in js 
 
 let todayDate = new Date()
-console.log(todayDate);
-
+console.log(todayDate);  
+  
 //* Date Methods():
 
 //? 1. getFullyear ()
