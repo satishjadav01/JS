@@ -77,6 +77,6 @@ app.listen(3000, () => {
 const express = require('express')
 const app = require();
 
-app.use()
+app.use(express.json())
 
 
