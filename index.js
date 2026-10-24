@@ -77,10 +77,13 @@ app.listen(3000, () => {
 const express = require('express')
 const app = require();
 
-app.use(express.json())
+app.get((req,res)=>{
+  res.send("Server is Runing ")
+});
 
-app.get("/",(req,res )=>{
-  
+app.listen(3000,()=>{
+console.log("Server Runing in Port 3000 ");
+
 })
 
 
