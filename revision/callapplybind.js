@@ -39,4 +39,4 @@
 //? Synatax : methodName.bind(thisArg)
 
 // let userInfo = printDetails.bind(user1);
-// userInfo("Ahm","in");
+// userInfo("Ahm","in"); 

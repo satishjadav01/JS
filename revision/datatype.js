@@ -3,7 +3,7 @@
 
 //* There are mainly two types of Datatype 1) Primitive Datatype 2) Nonprimitive Datatype 
 
-//* 1) Primitive Datatype 
+//* 1) Primitive Datatype  
 //& 1 Number 
 //& 2 string 
 //& 3 boolean
