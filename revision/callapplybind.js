@@ -13,7 +13,7 @@
 
 // function printName() {
 //     console.log(`Hellow , ${this.username} !`);
-// }
+// } 
 // printName.call(person1)
 
 //! Appy()
