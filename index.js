@@ -79,4 +79,8 @@ const app = require();
 
 app.use(express.json())
 
+app.get("/",(req,res )=>{
+  
+})
+
 
