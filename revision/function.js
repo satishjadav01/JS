@@ -14,7 +14,7 @@
 
 //! Named Function :
 //* give the name of function are also known as Named function
-
+  
 // function great() {
 //     console.log('Hellow Satish');
 // }
@@ -41,12 +41,12 @@
 // let res =  greetUser = (num1 , num2) => {
 //     return num1 + num2 ;
 // }
-// console.log(res(10,20));
+// console.log(res(10,20)); 
 
 //! callback Function
 //* The function pass another function as an argument are also known as callback Function
 
-// function orderItem(item,callback) {
+// function orderItem(item,callback) { 
 //     console.log(`Ordering item ${item}`);
 
 //     setTimeout(() => {
@@ -74,7 +74,7 @@
 
 // function clc(operation , num1 , num2) {
 //     return operation(num1 , num2)
-// }
+// } 
 
 // function sum(num1 , num2) {
 //     return num1 + num2
