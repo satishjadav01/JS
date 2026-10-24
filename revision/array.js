@@ -54,7 +54,7 @@
 // let sum = arr.reduce((total , sum)=>{
 //     return total + sum
 // })
-// console.log(sum);
+// console.log(sum); 
 
 //! forEach 
 //* which like loop throgth
