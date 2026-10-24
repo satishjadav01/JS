@@ -1,11 +1,11 @@
 //! What is DOM ? 
-//* DOM is an API  in Javascript which Allow the html element inside javascript and javascript provide funtionalities are knonw as DOM 
+//* DOM is an API  in Javascript which Allow the html element inside javascript and javascript provide funtionalities are knonw as DOM    
 
 //* DOM is an Tree Like Structure of a HTML Documnet is called as DOM 
 //* without dom we can't update,delete and create the html element 
 
 
-//! types of dom
+//! types of dom 
 //? HTML Dom    
 //? CORE DOM
 //? React DOM 
