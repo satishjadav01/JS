@@ -33,18 +33,18 @@
 //? document.titl
 console.log(document.title);
 document.title = "Update My Document";
-
+ 
 //? document.body
 console.log(document.body);
-
+ 
 //? document.head
-console.log(document.head);
+console.log(document.head); 
 
 //? document.url
 console.log(document.url);
 
 //? document.all
-console.log(document.all); // HTML collections 
+console.log(document.all); // HTML collections  
 
 console.log("DOM Method in js");
 
