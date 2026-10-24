@@ -61,4 +61,6 @@ app.listen(3000, () => {
 const express = require('express');
 const app = express();
 
-const 
+app.use(express.json())
+
+
