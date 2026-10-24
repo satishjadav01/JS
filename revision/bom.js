@@ -76,7 +76,7 @@ document.getElementById('btn').addEventListener('click',()=>{
 // Methods 
 //? 1.alert()
 console.alert("hello");
-
+ 
 //? 2. confirm():
 // let userInput = confirm("are you sure want to delete your account")
 // console.log(userInput);
