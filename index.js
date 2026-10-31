@@ -54,9 +54,9 @@ app.listen(3000, () => {
 //     res.json({message:"user deleted succsessfully "})
  
 //   } catch (error) { 
-   cx cx 
-//   }
-// });  
+   
+//    }
+//  });  
   
   
 
