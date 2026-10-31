@@ -52,8 +52,8 @@ app.listen(3000, () => {
 //         return res.status(404).json({message:"not found "})
 //     }
 //     res.json({message:"user deleted succsessfully "})
-
-//   } catch (error) {
+ 
+//   } catch (error) { 
 
 //   }
 // });  
