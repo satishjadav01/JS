@@ -69,8 +69,8 @@ app.listen(3000, () => {
   res.send("server runing");
 });
 
-app.listen(3000, () => {
-  console.log("server runig in port 3000");
+  app.listen(3000, () => {
+    console.log("server runig in port 3000");
 });
 
 const express = require('express')
