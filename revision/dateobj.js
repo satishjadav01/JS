@@ -23,10 +23,10 @@ console.log(todayDate.getMonth);
 
 // getTime
 console.log(todayDate.getTime);
-    
+       
 // getSeconds
 console.log(todayDate.getSeconds);
-
+  
 // getTimezoneOffset
 console.log(todayDate.getTimezoneOffset);
 
