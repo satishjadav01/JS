@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 app.listen(3000, () => {
   console.log("server runig in port 3000");
 });
- 
+
 // GET API
 
 // app.get("/users", async (req, res) => {
@@ -52,36 +52,32 @@ app.listen(3000, () => {
 //         return res.status(404).json({message:"not found "})
 //     }
 //     res.json({message:"user deleted succsessfully "})
- 
-//   } catch (error) { 
-   
+
+//   } catch (error) {
+
 //    }
-//   });  
-  
- 
+//   });
 
- const express = require("express");
- const app = express();
+const express = require("express");
+const app = express();
 
- app.use(express.json());
+app.use(express.json());
 
- app.get("/", (req, res) => {
+app.get("/", (req, res) => {
   res.send("server runing");
 });
 
-  app.listen(3000, () => {
-    console.log("server runig in port 3000");
+app.listen(3000, () => {
+  console.log("server runig in port 3000");
 });
 
-const express = require('express')
+const express = require("express");
 const app = require();
 
-app.get((req,res)=>{
-  res.send("Server is Runing ")
+app.get((req, res) => {
+  res.send("Server is Runing ");
 });
 
-app.listen(3000,()=>{
-console.log("Server Runing in Port 3000 ");
-})
-    
-
+app.listen(3000, () => {
+  console.log("Server Runing in Port 3000 ");
+});
