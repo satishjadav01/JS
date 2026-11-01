@@ -1,34 +1,34 @@
-    //! what is Date Object ?
-    //* Date object inbuild in js
+//! what is Date Object ?
+//* Date object inbuild in js
 
-    let todayDate = new Date();
-    console.log(todayDate);
+let todayDate = new Date();
+console.log(todayDate);
 
-    //* Date Methods():
+//* Date Methods():
 
-    //? 1. getFullyear ()
-    console.log(todayDate.getFullYear);
+//? 1. getFullyear ()
+console.log(todayDate.getFullYear);
 
-    // getDate
-    console.log(todayDate.getDate);
+// getDate
+console.log(todayDate.getDate);
 
-    //getHours
-    console.log(todayDate.getHours);
+//getHours
+console.log(todayDate.getHours);
 
-    // getMilliseconds
-    console.log(todayDate.getMilliseconds);
+// getMilliseconds
+console.log(todayDate.getMilliseconds);
 
-    // getMonth
-    console.log(todayDate.getMonth);
+// getMonth
+console.log(todayDate.getMonth);
 
-    // getTime
-    console.log(todayDate.getTime);
+// getTime
+console.log(todayDate.getTime);
 
-    // getSeconds
-    console.log(todayDate.getSeconds);
+// getSeconds
+console.log(todayDate.getSeconds);
 
-    // getTimezoneOffset
-    console.log(todayDate.getTimezoneOffset);
+// getTimezoneOffset
+console.log(todayDate.getTimezoneOffset);
 
-    // getMinutes
-    console.log(todayDate.getMinutes);
+// getMinutes
+console.log(todayDate.getMinutes);
