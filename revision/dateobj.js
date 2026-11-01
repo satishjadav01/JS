@@ -32,3 +32,4 @@ console.log(todayDate.getTimezoneOffset);
 
 // getMinutes
 console.log(todayDate.getMinutes);
+ 
