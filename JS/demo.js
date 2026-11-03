@@ -1,9 +1,9 @@
-function isPalidron(str) {
+function isPalidrome(str) {
     let rev = ""
 
     for(char of str){
-        rev = char + rev
+        rev = str + rev
     }
-    return str === rev
+    return rev === str
 }
-console.log(isPalidron("satish"));
+console.log(isPalidrome(""));
