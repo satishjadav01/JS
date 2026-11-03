@@ -1,9 +1,9 @@
 function isPalidrome(str) {
-    let rev = ""
+  let rev = "";
 
-    for(char of str){
-        rev = str + rev
-    }
-    return rev === str
+  for (char of str) {
+    rev = str + rev;
+  } 
+  return rev === str;
 }
-console.log(isPalidrome(""));
+console.log(isPalidrome(""));  
