@@ -4,6 +4,6 @@ function isPalidrome(str) {
   for (char of str) {
     rev = str + rev;
   } 
-  return rev === str;
+  return rev === str; 
 }
 console.log(isPalidrome(""));  
