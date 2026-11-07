@@ -1,5 +1,5 @@
 function countVovels(str) {
-    count = 0
+    count = 0 
     vovels = "aeiouAEIOU"
 
     for(char of str){
@@ -9,4 +9,4 @@ function countVovels(str) {
     }
     return count
 }
-console.log(countVovels('satish')); 
+console.log(countVovels('aaaa'));
