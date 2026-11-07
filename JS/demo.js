@@ -9,4 +9,4 @@ function countVovels(str) {
     }
     return count
 }
-console.log(countVovels('satish'));
+console.log(countVovels('satish')); 
