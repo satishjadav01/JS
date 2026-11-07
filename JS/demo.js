@@ -1,9 +1,9 @@
-function isPalidrone(str) {
+function reverseString(str) {
     let rev = ""
 
     for(char of str){
-        rev = str + rev 
+        rev = char + rev
     }
-    return rev === str
+    return rev
 }
-console.log(isPalidrone("nayan"));
+console.log(reverseString('satish'));
