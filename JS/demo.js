@@ -1,9 +1,4 @@
-function isPalidrome(str) {
-    rev = ""
-
-    for(char of str){
-        rev = char + rev
-    }
-    return str === rev
+function countVovels(str) {
+    count = 0;
+    
 }
-console.log(isPalidrome('nayan'));
