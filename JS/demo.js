@@ -1,9 +1,3 @@
-// function isPalidrome(str) {
-//     let rev = ""
-
-//     for(char of str){
-//         rev = char + rev
-//     }
-//     return str === rev
-// }
-// console.log(isPalidrome('nayan'));
+// let nums = [10,20,30,40,50]
+// let largestNum = Math.max(...nums)
+// console.log(largestNum);
