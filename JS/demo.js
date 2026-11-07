@@ -1,12 +1,9 @@
-function countVovels(str) {
-    count = 0 
-    vovels = "aeiouAEIOU"
+function reverseString(str) {
+    let rev = ""
 
     for(char of str){
-        if(vovels.includes(char)){
-            count ++
-        }
+        rev = char + rev
     }
-    return count
+    return rev
 }
-console.log(countVovels('aaaa'));
+console.log(reverseString('satish'));
