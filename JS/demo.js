@@ -1,9 +1,9 @@
-function reverseString(str) {
-    let rev = ""
+// function isPalidrome(str) {
+//     let rev = ""
 
-    for(char of str){
-        rev = char + rev
-    }
-    return rev
-}
-console.log(reverseString('satish'));
+//     for(char of str){
+//         rev = char + rev
+//     }
+//     return str === rev
+// }
+// console.log(isPalidrome('nayan'));
